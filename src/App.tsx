@@ -1,5 +1,10 @@
 import './App.css';
-import MuiLayout from './components/MuiLayout';
+import { MuiLink } from './components/MuiLink';
+//import { MuiNavBar } from './components/MuiNavBar';
+//import MuiImageList from './components/MuiImageList';
+//import MuiAccordion from './components/MuiAccordion';
+//import MuiCard from './components/MuiCard';
+//import MuiLayout from './components/MuiLayout';
 //import MuiAutoComplete from './components/MuiAutoComplete';
 //import MuiRaiting from './components/MuiRaiting';
 //import MuiCheckBox from './components/MuiCheckBox';
@@ -13,7 +18,7 @@ import MuiLayout from './components/MuiLayout';
 function App() {
   return (
     <div className='App'>
-    <MuiLayout/>
+    <MuiLink/>
     </div>
   );
 }
