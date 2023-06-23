@@ -1,6 +1,16 @@
 import './App.css';
-import { MuiLink } from './components/MuiLink';
-import { MuiNavBar } from './components/MuiNavBar';
+import { MuiTable } from './components/MuiTable';
+import { MuiTooltip } from './components/MuiTooltip';
+//import { MuiChip } from './components/MuiChip';
+//import { MuiList } from './MuiList';
+//import { MuiBadge } from './components/MuiBadge';
+//import { MuiAvatar } from './components/MuiAvatar';
+//import { MuiBottomNav } from './components/MuiBottomNav';
+//import { MuiSpeedDial } from './components/MuiSpeedDial';
+//import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+//import { MuiDrawer } from './components/MuiDrawer';
+//import { MuiNavBar } from './components/MuiNavBar';
+//import { MuiLink } from './components/MuiLink';
 //import MuiImageList from './components/MuiImageList';
 //import MuiAccordion from './components/MuiAccordion';
 //import MuiCard from './components/MuiCard';
@@ -18,8 +28,7 @@ import { MuiNavBar } from './components/MuiNavBar';
 function App() {
   return (
     <div className='App'>
-    <MuiNavBar/>
-    <MuiLink/>
+      <MuiTable/>
     </div>
   );
 }
